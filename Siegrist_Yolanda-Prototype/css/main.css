@@ -1,0 +1,73 @@
+/*********************************************
+MAIN STYLING
+*********************************************/
+body {
+background: #dfdfdf;
+}
+.nerd {
+font-family: Futura;
+font-size: .9em;
+color: white;
+}
+.compendium {
+font-family: Cinzel, serif;
+font-size: 1.3em;
+color: #f00;
+}
+.text-red {
+color: #f00;
+}
+.text-cinzel {
+font-family: Cinzel, serif;
+}
+.navbar-bottom {
+margin: 150px auto 0px;
+}
+.form-group {
+margin: 23px auto 0;
+}
+/*********************************************
+INDEX
+*********************************************/
+#news {
+margin-top: 40px;
+}
+/*********************************************
+RESULTS
+*********************************************/
+.result-display {
+padding: 20px 0 0 0;
+}
+.result-heading {
+text-decoration: underline;
+}
+.result-text {
+color: #333;
+}
+/*********************************************
+DETAILS
+*********************************************/
+.page-header {
+margin-top: 0;
+}
+.panel-body {
+padding-top: 0;
+}
+.featureImg {
+margin-bottom: 15px;
+}
+/*********************************************
+FAVORITES
+*********************************************/
+#favorites-gallery {
+margin-top: 40px;
+}
+.favorite-thing {
+margin-top: 30px;
+}
+/*********************************************
+LOGIN
+*********************************************/
+/*********************************************
+Sign-Up
+*********************************************/
