@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="A search engine for classic car enthusiasts" name="Description" />
+		<title>Favorite Cars</title>
+		<link href="css/normalize.css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Calligraffitti">
+	</head>
+	<body>
+		<header class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img class="navbar-logo" alt="Logo" src="images/Logo.jpg" />
+				</a>
+				<button class="navbar-toggle" data-target=".navHeaderCollapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Popular Cars</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Search By<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Year</a></li>
+								<li><a href="#">Make</a></li>
+								<li><a href="#">Model</a></li>
+								<li><a href="#">Color</a></li>
+							</ul>
+						</li>
+						<li><a class="fav" href="favorites.html">Favorites</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="sign-up.html">Sign Up</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<ol class="breadcrumb text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="results.html">Search Results</a></li>
+				<li class="active">Car Details</li>
+			</ol>
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="page header" itemtype="http://schema.org/Product" itemscope="">
+								<h3 itemprop="car">
+									1970 Dodge Challenger R/T
+								</h3>
+								<img class="featureImg img-responsive" itemprop="image" alt="Dodge Challenger" src="images/1970_Challenger_RT.jpg" />
+								<h4>Immaculate Plum Crazy Purple Exterior with New Black Vinyl Top.</h4>
+								<p>1970 Dodge Challenger R/T S/E. Built 383. Torque Flight Automatic Transmission. Immaculate Plum Purple Exterior with New Black Vinyl Top. Black Interior Buckets and New Carpet. Some original engine parts included. Less than 5,000 miles on engine and transmission. Performs and Sounds like the true muscle car that it is.</p>
+								<h5>Vehicle Basics:</h5>
+								<ul>
+									<li>Odometer Reading: 16,900</li>
+									<li>Engine Configuration: V-8, 383, Automatic, Rebuilt</li>
+									<li>Vehicle Color(s): Plum Crazy Purple w/ Black Vinyl Top</li>
+									<li>Condition of Exterior: Very Good, Fully Restored</li>
+								</ul>
+								<h5>User(s) Comments:</h5>
+								<a href="#">
+									<blockquote>
+										<h5>Instant Classic Pony Car</h5>
+										The 1970 Dodge Challenger and its sister, the 1970 Barracuda, set a new standard for pony cars. Both cars were fast, powerful and just plain good looking. It’s no wonder that Dodge based the new Dodge Challenger on these cars. Even today these cars are still among the most aggressive looking cars ever built.
+										<small>Reviewed by Muscle Car Facts April 15, 2011</small>
+									</blockquote>
+								</a>
+								<button class="btn btn-primary btn-sm">
+									+ Favorites
+								</button>
+								<button class="btn btn-warning btn-sm">
+									Contact Seller
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-lg-offset-1">
+					<h3>Other Cars You Might Like</h3>
+					<div class="list-group">
+						<a class="list-group-item" href="#">
+							<h4 class="list-group-item-heading">1969 Chevrolet Camaro</h4>
+							<img class="thumbnail img-responsive" alt="1969 Chevrolet Camaro" src="images/1969_Camaro.jpg" />
+							<p class="list-group-item-text">
+								This car comes with a 350 and a Turbo 350 automatic transmission.
+							</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h4 class="list-group-item-heading">1967 Ford Mustang</h4>
+							<img class="thumbnail img-responsive" alt="1967 Ford Mustang" src="images/1967_Mustang.jpg" />
+							<p class="list-group-item-text">
+								Full Restoration completed March 2014.
+							</p>
+						</a>
+						<a class="list-group-item" href="#">
+							<h4 class="list-group-item-heading">1968 Pontiac GTO</h4>
+							<img class="thumbnail img-responsive" alt="1968 Pontiac GTO" src="images/1968_GTO.jpg" />
+							<p class="list-group-item-text">
+								It had been in a garage for 20 years before it was restored.
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="navbar navbar-default navbar-bottom">
+			<div class="container">
+			<p class="navbar-text pull-left">
+					&copy; Yolanda Siegrist
+			</p>
+			<a class="navbar-btn btn btn-danger pull-right" href="index.html">
+				Home
+			</a>
+			<a class="navbar-btn btn btn-primary pull-right contact-btn" data-toggle="modal" href="#contact">
+				Contact
+			</a>
+			</div>
+		</footer>
+		<div id="contact" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form class="form-horizontal">
+						<div class="modal-header">
+							<h3>
+								Contact Us
+							</h3>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-name">
+									Name:
+								</label>
+								<div class="col-lg-10">
+									<input id="contact-name" class="form-control" type="text" placeholder="Your Name" />
+								 </div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-email">
+									Email:
+								</label>
+								<div class="col-lg-10">
+									<input id="contact-email" class="form-control" type="email" placeholder="YourEmail@example.com" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-message">
+									Message:
+								</label>
+								<div class="col-lg-10">
+									<textarea id="contact-message" class="form-control" rows="5"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default btn-sm" data-dismiss="modal">
+								Cancel
+							</a>
+							<button class="btn btn-primary btn-sm" type="submit">
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

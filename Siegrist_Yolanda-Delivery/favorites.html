@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="A search engine for classic car enthusiasts" name="Description" />
+		<title>Favorite Cars</title>
+		<link href="css/normalize.css" rel="stylesheet" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Calligraffitti">
+	</head>
+	<body>
+		<header class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img class="navbar-logo" alt="Logo" src="images/Logo.jpg" />
+				</a>
+				<button class="navbar-toggle" data-target=".navHeaderCollapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Popular Cars</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Search By<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Year</a></li>
+								<li><a href="#">Make</a></li>
+								<li><a href="#">Model</a></li>
+								<li><a href="#">Color</a></li>
+							</ul>
+						</li>
+						<li class="active"><a class="fav" href="favorites.html">Favorites</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="sign-up.html">Sign Up</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<ol class="breadcrumb text-center">
+				<li><a href="#">Home</a></li>
+				<li class="active">Favorites</li>
+			</ol>
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+					<form role="search">
+						<div class="input-group">
+							<input id="srch-term" class="form-control" type="text" name="srch-term" placeholder="Search" />
+							<div class="input-group-btn">
+								<a class="btn btn-danger" href="results.html">
+									Go!
+								</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<h2>Your Dream Cars</h2>
+				<div id="favorites-gallery" class="panel panel-default">
+					<div class="panel-body">
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Shelby Cobra" src="images/Shelby_Cobra.jpg" />
+								<h4>1966 Shelby 427 Cobra</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Jaguar" src="images/Jaguar.jpg" />
+								<h4>1961 Jaguar E-Type</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Maserati" src="images/Maserati.jpg" />
+								<h4>1969 Maserati Ghibli 4.7</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Boss Mustang" src="images/Boss_Mustang.jpg" />
+								<h4>1969 Boss 429 Mustang</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Sting Ray" src="images/Sting_Ray.jpg" />
+								<h4>1963 Corvette Sting Ray</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Charger" src="images/Dodge_Charger.jpg" />
+								<h4>1969 Dodge Charger</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Datsun" src="images/Datsun.jpg" />
+								<h4>1970 Datsun 240Z</h4>
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-4 favorite-thing">
+							<a href="#">
+								<img class="fav-thumb thumbnail img-responsive" alt="Toyota 2000GT" src="images/Toyota_2000GT.jpg" />
+								<h4>1969 Toyota 2000GT</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="navbar navbar-default navbar-bottom">
+			<div class="container">
+			<p class="navbar-text pull-left">
+				&copy; Yolanda Siegrist
+			</p>
+			<a class="navbar-btn btn btn-danger pull-right" href="index.html">
+				Home
+			</a>
+			<a class="navbar-btn btn btn-primary pull-right contact-btn" data-toggle="modal" href="#contact">
+				Contact
+			</a>
+			</div>
+		</footer>
+		<div id="contact" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form class="form-horizontal">
+						<div class="modal-header">
+							<h3>
+								Contact Us
+							</h3>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-name">
+									Name:
+								</label>
+								<div class="col-lg-10">
+									<input id="contact-name" class="form-control" type="text" placeholder="Your Name" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-email">
+									Email:
+								</label>
+								<div class="col-lg-10">
+									<input id="contact-email" class="form-control" type="email" placeholder="YourEmail@example.com" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label" for="contact-message">
+									Message:
+								</label>
+								<div class="col-lg-10">
+									<textarea id="contact-message" class="form-control" rows="5">
+									</textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default btn-sm" data-dismiss="modal">
+								Cancel
+							</a>
+							<button class="btn btn-primary btn-sm" type="submit">
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

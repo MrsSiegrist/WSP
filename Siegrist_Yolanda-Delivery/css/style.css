@@ -1,0 +1,66 @@
+/*********************************************
+MAIN STYLING
+*********************************************/
+body {
+	background: url(../images/Silver-gradient-background.gif) 100% 0;
+	color: #333;
+}
+.text-red {
+	color: red;
+	font-family: Cinzel, serif;
+}
+.navbar{
+	background: url(../images/blue-show-lights.jpg) 80% 0;
+	color: #fff;
+} 
+.navbar-bottom {
+	background: url(../images/blue-show-lights.jpg) 80% 0;
+	margin: 150px auto 0;
+}
+.form-group {
+	margin: 23px auto 0;
+}
+.contact-btn{
+	margin-right: 10px;
+}
+
+.fav::before{
+	content:"\2665";
+	color: #8b0000;
+}
+/*********************************************
+RESULTS
+*********************************************/
+.result-display {
+	padding: 20px 0 0;
+}
+.result-heading {
+	text-decoration: underline;
+}
+.result-text {
+	color: #333;
+}
+/*********************************************
+DETAILS
+*********************************************/
+.page-header {
+	margin-top: 0;
+}
+.panel-body {
+	padding-top: 0;
+}
+.featureImg {
+	margin-bottom: 15px;
+}
+/*********************************************
+FAVORITES
+*********************************************/
+.favorite-thing {
+	margin-top: 30px;
+}
+.fav-thumb{
+	box-shadow: 0 0 15px #777;
+}
+#news,#favorites-gallery {
+	margin-top: 40px;
+}
